@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <script src="script.js" defer></script>
+    <title>Open Space</title>
+</head>
+<body>
+<div class="space">
+    <div class="planet-area">
+        <img src="images/rocket.png" alt="Rocket" class="rocket" />
+        <img src="images/mars.png" alt="mars" class="planet" />
+    </div>
+    <div class="control-panel">
+        <div class="control-panel__inner">
+            <input type="password" name="password" class="password-input" placeholder="Enter your password to unlock" />
+            <input type="button" name="confirm" value="OK" class="confirm-btn" />
+            <div class="check-buttons">
+                <input type="checkbox" name="check" class="checkbox-button" />
+                <input type="checkbox" name="check" class="checkbox-button" />
+                <input type="checkbox" name="check" class="checkbox-button" />
+                <input type="checkbox" name="check" class="checkbox-button" />
+                <input type="checkbox" name="check" class="checkbox-button" />
+                <input type="checkbox" name="check" class="checkbox-button" />
+            </div>
+            <div class="levers">
+                <input type="range" name="levers" class="range-button"
+                       aria-orientation="vertical" min="0" max="100" value="50" step="10" />
+                <input type="range" name="levers" class="range-button" aria-orientation="vertical" min="0" max="100"
+                       value="50" step="10" />
+                <input type="range" name="levers" class="range-button" aria-orientation="vertical" min="0" max="100"
+                       value="50" step="10" />
+                <input type="range" name="levers" class="range-button" aria-orientation="vertical" min="0" max="100"
+                       value="50" step="10" />
+                <input type="range" name="levers" class="range-button" aria-orientation="vertical" min="0" max="100"
+                       value="50" step="10" />
+            </div>
+            <input type="button" name="launch" value="Launch" class="launch-btn" />
+        </div>
+    </div>
+    <div class="modal">
+        <div class="modal-container">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <div class="close-btn"><span>&times;</span></div>
+                </div>
+                <div class="modal-body">
+                    <h2>Please reload the page.</h2>
+                </div>
+                <button class="refresh-btn">Refresh</button>
+            </div>
+        </div>
+    </div>
+</div>
+</body>
+</html>
